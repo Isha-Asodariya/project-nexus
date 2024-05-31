@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Login & Signup</title>
+    <link rel="stylesheet" href="rest-style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <form id="loginForm" class="form">
+                <h1>Login</h1>
+                <div class="img-container">
+                    <img class="image-logo" src="chef.jpeg">
+                </div>
+                <div class="input-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" name="email" required>
+                </div>
+                <div class="input-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" name="password" required>
+                </div>
+                <button type="submit">Login</button>
+                <p class="message">Not registered? <a href="#" id="showSignup">Create an account</a></p>
+            </form>
+
+            <form id="signupForm" class="form" style="display:none;">
+                <h1>Sign Up</h1>
+                <div class="input-group">
+                    <label for="signupUsername">Username</label>
+                    <input type="text" id="signupUsername" name="username" required>
+                    <span class="error" id="usernameError"></span>
+                </div>
+                <div class="input-group">
+                    <label for="signupEmail">Email</label>
+                    <input type="email" id="signupEmail" name="email" required>
+                    <span class="error" id="emailError"></span>
+                </div>
+                <div class="input-group">
+                    <label for="signupPassword">Password</label>
+                    <input type="password" id="signupPassword" name="password" required>
+                    <span class="error" id="passwordError"></span>
+                </div>
+                <button type="submit">Sign Up</button>
+                <p class="message">Already registered? <a href="#" id="showLogin">Sign In</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="rest-script.js"></script>
+</body>
+</html>

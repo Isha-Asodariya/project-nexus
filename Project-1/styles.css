@@ -1,0 +1,100 @@
+body {
+    /* font-family: Arial, sans-serif; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ecf6f1;
+    font-size:24px;
+    color:white;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 8px 3px 2px #211d20;
+}
+
+.container {
+    /* background:linear-gradient(rgb(82, 75, 82),black,rgb(241, 145, 241),rgb(138, 137, 138)); */
+    background-image: url('https://t3.ftcdn.net/jpg/03/36/00/98/240_F_336009887_yI4fLOqWbm8rNLCCIgmCuR3XY1caADIy.jpg');
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: -8px 10px 5px 3px rgb(63, 63, 63);
+    max-width: 450px;
+    width: 100%;
+}
+.img-container{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+.image-logo{
+    width:50%;
+    border-radius: 50%;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    font-size:18px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    height:5vh;
+}
+
+button {
+    margin-top: 20px;
+    font-size:20px;
+    width: 100%;
+    padding: 10px;
+    background: #d073ed;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ae6aaa;
+}
+
+.message {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.message a {
+    color: #f0bbf6;
+    text-decoration: none;
+}
+
+.message a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+    font-size: 0.9em;
+    display: none;
+    margin-top: 5px;
+}
